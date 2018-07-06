@@ -8,9 +8,8 @@ margin-left:auto;
 margin-right:auto;}
 
 .center2{
-margin-left:130px;}
-
-audio{display:none;}
+height:auto;
+width:100%;}
 
 .sidenav{
 height:100%;
@@ -32,7 +31,7 @@ font-size:25px;
 color:black;
 display:block;
 transition:0.3s;
-background-color:f3efe0;
+background-color:#f3efe0;
 }
 
 .sidenav a:hover{color:#659dbd;}
@@ -45,14 +44,9 @@ font-size:36px;
 margin-left:30px;
 }
 
-nav a {
-text-decoration:none;
-font-size:180%;
-font-family: Arial, Helvetica, sans-serif;
-color:#083c5d;
-}
+span:hover {color:darkblue;}
 
-nav a:hover{color:#659dbd;}
+audio{display:none;}
 
 a{
 text-decoration:none;
@@ -63,10 +57,23 @@ color:#015249;
 
 a:hover{color:#1d2731;}
 
-.position{
-position:fixed;
-top:250px;
-left:40px;
+img:hover{
+animation: shake 0.5s; 
+animation-iteration-count: infinite; 
+}
+
+@keyframes shake {
+0% { transform: translate(1px, 1px) rotate(0deg); }
+10% { transform: translate(-1px, -2px) rotate(-1deg); }
+20% { transform: translate(-3px, 0px) rotate(1deg); }
+30% { transform: translate(3px, 2px) rotate(0deg); }
+40% { transform: translate(1px, -1px) rotate(1deg); }
+50% { transform: translate(-1px, 2px) rotate(-1deg); }
+60% { transform: translate(-3px, 1px) rotate(0deg); }
+70% { transform: translate(3px, 1px) rotate(-1deg); }
+80% { transform: translate(-1px, -1px) rotate(1deg); }
+90% { transform: translate(1px, 2px) rotate(0deg); }
+100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
 head{
@@ -74,7 +81,8 @@ background-color:#f7f9fb;
 }
 
 main{
-background-color:#f7ce3e;}
+background-color:#62ff59;
+height:100%;}
 
 h1{
 text-align:center;
@@ -91,20 +99,31 @@ margin-right:280px;
 }
 
 footer{
-position: absolute;
 width: 100%;
 text-align:center;
 background-color:#f4decb;
 }
 
+@media only screen and (max-width: 1024px) { 
+.position{position:absolute;}	
+.sidenav{padding-top:15px;}
+.sidenav a{font-size:130%;}
+p{margin:auto;
+margin-left:20px;
+margin-right:20px;}
+}
+
+
 @media only screen and (max-width: 768px) {
 .position{position:absolute;}	
-nav {
-	display:block;
-	padding:0.2em;
-	font-size:1.3em;
-	border-bottom:1px solid #330000;}
+.sidenav{padding-top:15px;}
+.sidenav a{font-size:130%;}
 h1{text-align:center;
 	font-size:2em;}
-p{font-size:1.8em;}
+p{font-size:1.4em;
+margin:auto;
+margin-left:10px;
+margin-right:10px;}
+body{width:100%;}
+footer a{font-size:0.9em;}
 }
