@@ -129,6 +129,8 @@ margin-left:50px;
 font-size:90%;
 width:500px;
 height:500px;}
+.sidenav{padding-top:15px;}
+.sidenav a{font-size:130%;}
 audio{display:none;}
 footer{position: absolute;}
 footer a{font-size:1em;}
@@ -142,6 +144,8 @@ margin-left:30px;
 font-size:80%;
 width:250px;
 height:500px;}
+.sidenav{padding-top:15px;}
+.sidenav a{font-size:130%;}
 audio{display:none;}
 label{font-size:80%;}
 input{font-size:80%;}
