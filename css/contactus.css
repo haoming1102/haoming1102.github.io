@@ -2,7 +2,7 @@
 font-family:Times new roman,serif;
 }
 
-audio{display:none;}
+audio{margin-left:1200px;}
 
 .sidenav{
 height:100%;
@@ -51,12 +51,6 @@ font-family: Arial, Helvetica, sans-serif;
 color:#015249;}
 
 a:hover{color:#659dbd;}
-
-.position{
-position:fixed;
-top:250px;
-left:40px;
-}
 
 .bg-img{
 background-image:url("background2.jpg");
@@ -112,7 +106,7 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
-width:100%;
+width:99%;
 }
 
 h1{
@@ -121,25 +115,41 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 footer{
-position: absolute;
 top:925px;
-width: 100%;
+width: 99%;
 text-align:center;
 background-color:#f4decb;
 }
 
 @media only screen and (max-width: 1024px) {
-.container{margin:auto;}
-.bgimage{background-size:contain;}
+.container{
+position:absolute;
+margin-top:50px;
+margin-left:50px;
+font-size:90%;
+width:500px;
+height:500px;}
+audio{display:none;}
 footer{position: absolute;}
-footer a{font-size:0.9em;}
+footer a{font-size:1em;}
 }
 
 @media only screen and (max-width: 768px) { 
-.bgimage{display:none;}
-.container{margin-left:auto;
-margin-right:auto;}
+.container{
+position:absolute;
+margin-top:40px;
+margin-left:30px;
+font-size:80%;
+width:250px;
+height:500px;}
+audio{display:none;}
+label{font-size:80%;}
+input{font-size:80%;}
+span{font-size:80%;}
+footer{position: absolute;}
+footer a{font-size:0.8em;}
 }
+
 
 
 
