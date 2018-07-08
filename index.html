@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/index.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="index.css" type="text/css" media="print">
 	<link rel="icon" href="pictures/seniorliving.ico" type="image/x-icon">
 	<title>Senior Living Home Page</title>
 	<!--[if lt IE 9]>
@@ -12,56 +13,24 @@
 	<![endif]-->
 </head>
 <body>
+	<a href="index.html"><img src="pictures/logo(2).png" width="350" height="200" alt="logo" class="center"></a>
 	<div id="mySidenav" class="sidenav">
-		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		<h3><img src="pictures/logo(2).png" height="150" width="250" alt="pictures"></h3>
-		<a href="Homepage.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a><br>
-		<a href="Shopping.html" onclick="w3_close()" class="w3-bar-item w3-button">Shopping</a><br>
-		<a href="Meal.html" onclick="w3_close()" class="w3-bar-item w3-button">Meal</a><br>
-		<a href="Contactus.html" onclick="w3_close()" class="w3-bar-item w3-button">Contact Us</a><br>
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="index.html">Home</a><br>
+		<a href="Shopping.html">Shopping</a><br>
+		<a href="Meal.html">Meals</a><br>
+		<a href="Healthcare.html">Health Care</a><br>
+		<a href="Contactus.html">Contact Us</a><br>
 	</div>
-	<span onclick="openNav()">Menu</span>
-	<br><br><br><br>
-	<header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
-		<div class="topnav" id="myTopnav">
-			<img src="pictures/logo(2).png" height="150" width="250" alt="pictures" class="right">  
-			<div id="myLinks">
-			<a href="Homepage.html">Menu</a>
-			<a href="Shopping.html">Shopping</a>
-			<a href="Meal.html">Meal</a>
-			<a href="Contactus.html">Contact Us</a>
-			</div>
-			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-			<i class="fa fa-bars"></i></a>
-		</div>
-	</header>
+	<span style="font-size:30px;cursor:pointer;font-family:Arial, Helvetica, sans-serif;font-weight:bold;" onclick="openNav()">MENU</span>
 	<script>
-	function openNav() {
-		document.getElementById("mySidenav").style.width = "250px";
-	}
-
-	function closeNav() {
-		document.getElementById("mySidenav").style.width = "0";
-	}
-
-	function openNav() {
-		document.getElementById("mySidenav").style.width = "250px";
-		document.getElementById("main").style.marginLeft = "250px";
-	}
-
-	function closeNav() {
-		document.getElementById("mySidenav").style.width = "0";
-		document.getElementById("main").style.marginLeft = "0";
-	}
-
-	function myFunction() {
-		var x = document.getElementById("myTopnav");
-		if (x.className === "topnav") {
-			x.className += " responsive";
-		} else {
-			x.className = "topnav";
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "220px";
 		}
-	}
+
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+		}
 	</script>
 	<h1>Welcome to Senior Living, where you can find the best services!</h1>
 	<figure> 
@@ -79,9 +48,9 @@
 	<br><br><br><br>
 	<footer>
 	Copyright &copy; by 2018BIT<br>
-	<a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="Homepage.html">Menu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	<a href="Shopping.html">Shopping</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<a href="Meal.html">Meals</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="Meal.html">Meal</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	<a href="Healthcare.html">Health Care</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	<a href="Contactus.html">Contact Us</a></footer>
 </body>
