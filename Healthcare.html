@@ -12,6 +12,7 @@
 	<![endif]-->
 </head>
 <body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 	<a href="index.html"><img src="pictures/logo(2).png" width="350" height="200" alt="logo" class="center"></a>
 	<div id="mySidenav" class="sidenav">
 	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -29,6 +30,21 @@
 
 		function closeNav() {
 			document.getElementById("mySidenav").style.width = "0";
+		}
+		
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("myBtn").style.display = "block";
+			} else {
+				document.getElementById("myBtn").style.display = "none";
+			}
+		}	
+		
+		function topFunction() {
+			document.body.scrollTop = 0; 
+			document.documentElement.scrollTop = 0; 
 		}
 	</script>
 	<audio controls>
