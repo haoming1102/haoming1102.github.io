@@ -2,7 +2,7 @@
 font-family:Times new roman,serif;
 }
 
-audio{margin-left:1200px;}
+audio{float:right;}
 
 .sidenav{
 height:100%;
@@ -132,11 +132,13 @@ height:500px;}
 .sidenav{padding-top:15px;}
 .sidenav a{font-size:130%;}
 audio{display:none;}
-footer{position: absolute;}
+footer{position: absolute;
+width:99%;}
 footer a{font-size:1em;}
 }
 
 @media only screen and (max-width: 768px) { 
+body, footer{width:98%;}
 .container{
 position:absolute;
 margin-top:40px;
@@ -150,7 +152,8 @@ audio{display:none;}
 label{font-size:80%;}
 input{font-size:80%;}
 span{font-size:80%;}
-footer{position: absolute;}
+footer{position: absolute;
+max-width:100%;}
 footer a{font-size:0.8em;}
 }
 
