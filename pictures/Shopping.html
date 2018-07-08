@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="shopping.css" type="text/css" media="screen">
+	<link rel="icon" href="pictures/seniorliving.ico" type="image/x-icon">
+	<title>Shopping</title>
+	<!--[if lt IE 9]>
+	<script src=" http://html5shim.googlecode.com/svn/trunk/html5.js ">
+	</script>
+	<![endif]-->
+</head>
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<a href="index.html"><img src="pictures/logo(2).png" width="350" height="200" alt="logo" class="center"></a>
+	<div id="mySidenav" class="sidenav">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="index.html">Home</a><br>
+		<a href="Shopping.html">Shopping</a><br>
+		<a href="Meal.html">Meals</a><br>
+		<a href="Healthcare.html">Health Care</a><br>
+		<a href="Contactus.html">Contact Us</a><br>
+	</div>
+	<span style="font-size:30px;cursor:pointer;font-family:Arial, Helvetica, sans-serif;font-weight:bold;" onclick="openNav()">MENU</span>
+	<script>
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "220px";
+		}
+
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+		}
+		
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("myBtn").style.display = "block";
+			} else {
+				document.getElementById("myBtn").style.display = "none";
+			}
+		}	
+		
+		function topFunction() {
+			document.body.scrollTop = 0; 
+			document.documentElement.scrollTop = 0; 
+		}
+		
+		function myFunction() {
+			var dots = document.getElementById("dots");
+			var moreText = document.getElementById("more");
+			var btnText = document.getElementById("readmore");
+
+			if (dots.style.display === "none") {
+			dots.style.display = "inline";
+			btnText.innerHTML = "Read more"; 
+			moreText.style.display = "none";
+			} else {
+			dots.style.display = "none";
+			btnText.innerHTML = "Read less"; 
+			moreText.style.display = "inline";
+			}
+		}
+	</script>
+	<div id="main">
+	<img src="pictures/shopping.png" alt="shopping" class="left">
+	<p>If dealing with hoards of shoppers and negotiating parking spaces at the mall is not your idea of fun, you’ll want to check out three online shopping websites for seniors. Today, most online shopping websites offer the convenience of delivering packages in a few days with a nominal shipping fee (or sometimes even for free) and overnight for an added fee. Below, you’ll discover three top sites for seniors and how to get the most for your money online.</p>
+	<br>
+	<div class="w3-container w3-center w3-animate-bottom"><br>
+	<h2 class="bigtitle4">Insider Tricks of the Trade</h2>
+	<div class="w3-container">
+	<p>Use these three tips to find the lowest online price on any item:</p><br>
+	<div class="w3-tooltip">
+	<img src="pictures/google.svg" width="300" height="210" alt="google">
+	<p class="w3-text">1. Go to <a href="https://www.google.com.my">Google</a> and type:
+	[item name without the brackets] [type a space] compare price
+	For example, to find hearing aid batteries, type: hearing aid batteries compare price.Your search results will list various websites offering hearing aid batteries so you can see where the best bargains are.</p>
+	</div>	
+</div>
+	<div class="w3-container">
+	<div class="w3-tooltip">
+	<img src="pictures/freeshipping.png" width="200" height="210" alt="freeshipping" >
+	<p class="w3-text">2. Check <a href="http://www.freeshipping.org/">FreeShipping.org</a> for online shopping websites that offer free shipping. If the merchant doesn’t offer free shipping with a small purchase and you’re a new customer, call them and explain that you’d like to try their service, and you’d like free shipping on your first order. Sometimes they’ll say yes.</p>
+	</div>
+</div></span>
+	<div class="w3-container">
+	<div class="w3-tooltip">
+	<img src="pictures/retailnotme.jpg" width="450" height="210" alt="retailnotme">
+	<p class="w3-text">3. Check <a href="https://www.retailmenot.com/">RetailMeNot.com</a> for current coupon codes that you enter when you order. Type the online merchant into the search box at the top, and it will return all the current coupon codes for that site.</p>
+	</div>
+</div>
+	<br>
+	
+	<p>When you use these techniques, your searches will often lead you to the top online shopping websites listed below:</p>
+	<br>
+	<div class="w3-container w3-center w3-animate-opacity">
+	<h2 class="bigtitle4">Top 3 Online Shopping Websites</h2>
+	</div>
+	<span id="dots">...</span>
+	<span id="more">
+	<img src="pictures/amazon.png" width="450" height="210" alt="amazon">
+	<p>1. <a href="https://www.amazon.com/">Amazon.com</a> is the largest online retailer, and their service is exceptional. If you order $25 of qualifying products, shipping is free. If you order regularly from Amazon, the $3-5 delivery charges you pay for small orders can add up over time. Consider their Prime service, which costs $79 a year. Prime members get a 30-day free trial and unlimited two-day delivery as well as unlimited free downloads of selected Kindle books, TV shows, and movies. Note: You don’t need a Kindle to read Kindle books. You can read them on computers, tablets, and mobile devices with a free Kindle reading app.</p>
+	<br>
+	<img src="pictures/drugstore.jpg" width="250" height="210" alt="drugstore">
+	<p>2. <a href="https://www.walgreens.com/?dscmredirect=1">Drugstore.com</a> carries more than just drugstore items, and you’ll find many steals and deals on their site, including online manufacturers’ coupons. You can even order prescription drugs at competitive prices, often for less than you’d pay at your corner drugstore. Time magazine notes that your corner drugstore may even be the highest-priced option for prescription medication.</p>
+	<br>
+	<img src="pictures/overstock.png" width="550" height="150" alt="overstock">
+	<p>3. <a href="https://www.overstock.com/">Overstock.com</a> is a huge online shopping website specializing in discontinued and overstocked items offered at a huge discount. They’ve got you covered when you need to find a gift or replace a household item. Their high-end home furnishings are available for what you’d pay for “value” furnishings elsewhere. Standard shipping is $2.95 or free with an order over $50. And with $2.95 shipping, this is a place to consider shopping for heavy items like vacuum cleaners.</p>
+	<br>
+	<p>When you find online merchants that you like, sign up for their emails so you can receive additional VIP discounts and sale notices. Sometimes, they’ll offer 50 percent off already reduced.</p>
+    </div>
+	 </span>
+	<br>
+	<button onclick="myFunction()" id="readmore">Read more</button>
+	<footer>
+	Copyright &copy; by 2018BIT<br>
+	<a href="Homepage.html">Menu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="Shopping.html">Shopping</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="Meal.html">Meal</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="Healthcare.html">Health Care</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="Contactus.html">Contact Us</a></footer>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Meals</title>
+	<link rel="icon" href="pictures/seniorliving.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/meal.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--[if lt IE 9]>
+	<script src=" http://html5shim.googlecode.com/svn/trunk/html5.js ">
+	</script>
+	<![endif]-->
+</head>
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<a href="index.html"><img src="pictures/logo(2).png" width="350" height="200" alt="logo" class="center"></a>
+	<div id="mySidenav" class="sidenav">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="index.html">Home</a><br>
+		<a href="Shopping.html">Shopping</a><br>
+		<a href="Meal.html">Meals</a><br>
+		<a href="Healthcare.html">Health Care</a><br>
+		<a href="Contactus.html">Contact Us</a><br>
+	</div>
+	<span style="font-size:30px;cursor:pointer;font-family:Arial, Helvetica, sans-serif;font-weight:bold;" onclick="openNav()">MENU</span>
+	<script>
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "220px";
+		}
+
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+		}
+		
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("myBtn").style.display = "block";
+			} else {
+				document.getElementById("myBtn").style.display = "none";
+			}
+		}	
+		
+		function topFunction() {
+			document.body.scrollTop = 0; 
+			document.documentElement.scrollTop = 0; 
+		}
+	</script>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/j1NCRsH6174" allow="autoplay; encrypted-media" allowfullscreen class="center2"></iframe>
+	<div class="w3-main w3-content w3-padding" style="max-width:1500px;"></div>
+	<!-- First Photo Grid-->
+	<div class="w3-row-padding w3-padding-16 w3-center" id="food">
+		<div class="w3-quarter">
+			<img src="pictures/sandwich.jpg" alt="sandwich" width="250" height="300" class="responsive">
+			<h3>The Perfect Sandwich</h3>
+			<p>Sandwiches are a popular type of lunch food, taken to work, school, or picnics to be eaten as part of a packed lunch.</p>
+		</div>
+		<div class="w3-quarter">
+			<img src="pictures/vegetables.jpg" alt="vegetables" width="250" height="300" class="responsive">
+			<h3>The Low-fat Food</h3>
+			<p>High in vitamins, minerals and dietary fiber.</p>
+		</div>
+		<div class="w3-quarter">
+			<img src="pictures/fruits.jpg" alt="Fruits" width="250" height="300" class="responsive">
+			<h3>Colorful Fruit</h3>
+			<p>Fresh fruits are generally high in fiber, vitamin C, and water.</p>
+		</div>
+		<div class="w3-quarter">
+			<img src="pictures/breakfast.jpg" alt="Healthy Breakfast" width="250" height="300" class="responsive">
+			<h3>Healthy Breakfast</h3>
+			<p>A healthy breakfast is essential for the day.</p>
+		</div>
+	</div>
+	<!-- Second Photo Grid-->
+	<div class="w3-row-padding w3-padding-16 w3-center">
+		<div class="w3-quarter">
+			<img src="pictures/steak.jpg" alt="Steak" width="250" height="300" class="responsive">
+			<h3>Let Me Tell You About This Steak</h3>
+			<p>Beef steaks are commonly grilled, broiled or occasionally fried. Grilled beef steaks can be cooked at different temperatures, or for different lengths of time.</p>
+		</div>
+		<div class="w3-quarter">
+			<img src="pictures/salmon.jpg" alt="Salmon" width="250" height="300" class="responsive">
+			<h3>Salmon For Your Skin</h3>
+			<p>Protects the heart and prevents cardiovascular and cerebrovascular diseases. Vitamin A in salmon has improved immunity and anti-cancer effect.</p>
+		</div>
+		<div class="w3-quarter">
+			<img src="pictures/wine.jpg" alt="Red Wine" width="250" height="300" class="responsive">
+			<h3>Red Wine</h3>
+			<p>The wine has anti-aging and anti-aging effects, and the extract in the wine can control the aging of the skin.</p>
+		</div>
+		<div class="w3-quarter">
+			<img src="pictures/mealmix.jpg" alt="Meal Mix" width="250" height="300" class="responsive">
+			<h3>Meal Mix</h3>
+			<p>The calorie-producing nutrients are mainly protein, fat and carbohydrates.</p>
+		</div>
+	</div>
+	<br><br>
+	<div class="summary">
+	Specific food products can benefit those in elderly care homes and help them maintain their health and memory if they're consumed as part of a healthy lifestyle.<br>
+	Eating a certain type of food won't help you cure a disease or prevent dementia, but a healthy diet packed with nutritious foods does have its benefits. 
+	Specific products can benefit those in elderly care homes and help them maintain their health and memory if they're consumed as part of a healthy lifestyle. 
+	Not sure which foods should be on your or your loved one's grocery list? Here are the top 10 foods that senior citizens should be eating.
+	</div>
+	<!-- Tags -->
+    <div class="w3-white w3-margin">
+		<div class="w3-container w3-padding w3-black">
+			<h4>Tags</h4>
+		</div>
+        <div class="w3-container w3-white">
+			<div class="w3-container" id="contact" style="margin-top:75px">
+				<span class="w3-tag w3-black w3-margin-bottom">Ingredients</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Apples</span><span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shellfish</span> 
+				<span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Leafy green vegetables</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Cold-water fish</span> 
+				<span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Eggs </span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Asparagus</span> 
+				<span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Berries and dark-skinned fruits</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Dark chocolate</span> 
+				<span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Coffee</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Greek yoghurt</span>
+			</div>		
+        </div>
+    </div>
+    <footer>
+	Copyright &copy; by 2018BIT<br>
+	<a href="Homepage.html">Menu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="Shopping.html">Shopping</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="Meal.html">Meal</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="Healthcare.html">Health Care</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="Contactus.html">Contact Us</a></footer>                                                                                                                                                                                                                                                                                                                 
+</body>
+</html>
