@@ -110,6 +110,11 @@ margin-right:90px;
 p {font-family:Verdana, Arial, sans-serif;
 font-size:150%;}
 
+img{
+display: block;
+margin-left: auto;
+margin-right: auto;}
+
 footer{
 width: 100%;
 text-align:center;
@@ -129,13 +134,13 @@ footer a:hover{color:#1d2731;}
 .sidenav a{font-size:130%;
 margin-right:20px;}
 .picture1{display:none;}
-img{width:100%;
+main img{width:100%;
 height:auto;}
-#more{
-font-size:1em;}
+#readmore{position:relative;}
+#more{font-size:1em;}
 p{font-size:1.1em;
-margin-left:30px;
-margin-right:30px;}
+margin-left:40px;
+margin-right:40px;}
 footer a{font-size:1em;}
 }
 
@@ -143,13 +148,13 @@ footer a{font-size:1em;}
 .sidenav{padding-top:15px;}
 .sidenav a{font-size:130%;}
 .picture1{display:none;}
-img{width:100%;
+main img{width:100%;
 height:auto;}
 main{
-margin-left:20px;
-margin-right:20px;}
-#more{
-font-size:1em;}
+margin-left:30px;
+margin-right:30px;}
+#readmore{left:100px;}
+#more{font-size:1em;}
 p{font-size:1em;}
 footer a{font-size:0.8em;}
 }
